@@ -14,9 +14,9 @@
 
     <div class="min-h-screen bg-neutral-900 text-slate-100 font-mono">
 
-        <div class="flex w-full py-16 px-20">
+        <div class="xl:flex w-full px-6 py-8 xl:py-16 xl:px-20">
             
-            <aside class="w-1/4 p-4">
+            <aside class="xl:w-1/4 p-4">
 
                 <img src="@/assets/images/profile-picture.webp" alt="image-1" width="100" height="100" class="rounded-lg">
 
@@ -35,7 +35,7 @@
 
             </aside>
 
-            <main class="w-3/4 p-4">
+            <main class="xl:w-3/4 p-4">
                 
                 <div class="space-y-2">
                     <h4 class="font-bold text-3xl">Hello!</h4>
@@ -217,6 +217,40 @@
             </main>
 
         </div>
+
+        <!-- Menu Float -->
+
+        <div class="fixed bottom-5 left-0 w-full flex justify-center">
+            <div class="w-7/8 md:w-4/5 xl:w-2/4 bg-neutral-600 border-2 border-neutral-300 rounded-lg p-2 flex justify-center space-x-2 overflow-scroll"> 
+
+                <button class="
+                bg-neutral-800 px-3 py-1 rounded transition
+                active:bg-neutral-300 active:text-neutral-900 
+                hover:bg-neutral-300 hover:text-neutral-900 
+                ">
+                    Home  
+                </button>
+
+                <button class="
+                bg-neutral-800 px-3 py-1 rounded transition
+                active:bg-neutral-300 active:text-neutral-900 
+                hover:bg-neutral-300 hover:text-neutral-900 
+                ">
+                    Article
+                </button>
+
+                <button class="
+                bg-neutral-800 px-3 py-1 rounded transition
+                active:bg-neutral-300 active:text-neutral-900 
+                hover:bg-neutral-300 hover:text-neutral-900 
+                ">
+                    Contact
+                </button>
+
+            </div>
+        </div>
+         
+        <!-- ./ Menu Float -->
 
     </div>
 
